@@ -34,18 +34,20 @@ git remote -v
 
 git remote add origin https://github.com/你的用户名/你的仓库名
 
-
-
 ### 克隆远程仓库到本地
 
 git clone https://github.com/你的用户名/你的仓库名.git
 
+### 修改远程仓库origin的地址（从HTTPS修改为SSH）
 
+git remote set-url origin git@github.com:Shugify/survey.git
 
 | 命令             | 用途                                        | 是否拉代码 | 是否创建 `.git`  |
 | ---------------- | ------------------------------------------- | ---------- | ---------------- |
 | `git clone`      | 克隆远程仓库（首次使用）                    | ✅ 是       | ✅ 是             |
 | `git remote add` | 给已有的本地仓库添加远程地址（比如 GitHub） | ❌ 否       | ❌ 否（要求已有） |
+
+使用SSH登录则使用URL为  git@github.com:Shugify/survey.git
 
 
 
@@ -129,6 +131,8 @@ git commit --amend
 ### 强制推送更改（当修改过历史提交时）
 
 git push --force
+
+git push -f origin main
 
 ### 查看当前所在的分支
 
