@@ -1,3 +1,7 @@
+更新版本：
+
+[‍‍﻿‬‌﻿‬‌‍‌‬‌﻿﻿‍‬﻿﻿⁠‌‌﻿⁠﻿‌﻿‬⁠‌‬灰产技术-图像与视频模态调研 - 飞书云文档](https://gcn6e7dvmikn.feishu.cn/docx/SL76dg2xtoUeMVxXSIucK27UnCh)
+
 
 
 结论: 当前造假的主要方法和技术手段主要还是以Deepfake换脸和AIGC合成为主, Deepfake换脸的方法主要处理视频模态, 也可以处理图片模态, 技术依赖于传统的GAN-based的生成模型, 方法比较老(2-3年前). 而AIGC生成一般是直接根据参考人物图片生成新的图片或者是数字人视频, 主要是基于DIffusion-based的方法.
