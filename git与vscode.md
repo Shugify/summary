@@ -49,6 +49,15 @@ git remote set-url origin git@github.com:Shugify/survey.git
 
 使用SSH登录则使用URL为  git@github.com:Shugify/survey.git
 
+尝试能不能连接github  :  `ssh -T git@github.com`
+
+Git 需要知道是谁提交的更改，否则无法执行 `git commit`，你就必须配置用户名和邮箱：
+
+```
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+```
+
 
 
 ### 推送到远程仓库特定分支
