@@ -58,7 +58,11 @@ git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 ```
 
+注意：gitthub会根据邮箱自动匹配github账号的名称，而config的名称会显示在本地的提交记录中
 
+<img src="C:\Users\SHI\AppData\Roaming\Typora\typora-user-images\image-20250712171507450.png" alt="image-20250712171507450" style="zoom: 50%;" />
+
+<img src="C:\Users\SHI\AppData\Roaming\Typora\typora-user-images\image-20250712171517366.png" alt="image-20250712171517366" style="zoom:67%;" />
 
 ### 推送到远程仓库特定分支
 
