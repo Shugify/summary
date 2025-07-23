@@ -1,40 +1,5 @@
 [TOC]
 
-
-
-
-
-xyy:
-
-1. 你问gpt了解一下vscode在远程服务器上debug的原理. 注意, 这里你去看什么csdn或者知乎那些vscode的python debug教程可能不完全适用. 因为你是在用vscode去远程coding, 实际上就是服务器上装了一个vscode(你第一次用vscode  连接服务器的时候就会说在安装vscode-server), 而你电脑上的vscode只是起到一个前端页面的作用 -> 因此你相当于就是在直接操控服务器上的vscode, 因此要给vscode配置的是服务器的python解释器路径. 
-
-然后你目前要做的就是问一下gpt这个流程是什么, 了解vscode debug的时候的launch.json是干什么用的? (你本科的时候可能用过但是没深入了解过), 然后配置好的conda环境的解释器(而不是系统默认python的或其他的, 你可以用很多命令来看, 包括之前你学会的echo $PATH, 可以具体问一下GPT)
-然后创建一个type是debugpy的调试, 开始调试你目前的代码, 实现能断点的功能.
-
-xyy:
-lanch.json的说明参考: https://code.visualstudio.com/docs/debugtest/debugging-configuration
-
-xyy:
-快速读英文文档的话, 你可以chrome装一个沉浸式浏览的插件, 然后进去设置配置一下openai格式的api, 这里api就是按我上次给你的那种
-
-xyy:
-例如: yunwu.ai
-充几块钱试试
-
-xyy:
-效果:
-
-xyy:
-[图片]
-
-xyy:
-2. 看wandb官方文档, 学会怎么用wandb:
-https://wandb.ai/site/
-
-然后实现把训练过程的loss, 还有训练中的训练图片(部分就行)保存到wandb
-
-
-
 ## vscode在远程服务器上debug
 
 ### **解释器与调试器(debug)**
